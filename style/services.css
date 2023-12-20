@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+:root{
+    --bg-color: #1a2b6d;
+}
+body{
+    margin: 0 auto !important;
+    max-width: 1440px;
+    background-color: #fff;
+}
+/*.main-our-service{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}*/
+.div-our-service{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #1a2b6d;
+    color: white;
+    font-size: 2.5rem;
+    padding: 50px 0 0 120px;
+}
+.div-ourservices{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 60px;
+    position: relative;
+    top: -105px;
+    margin-bottom: 30px;
+ }
+.div-ourservices > div{
+    width: 26%;
+    background-color: #f2f2f2;
+    padding: 30px ;
+    text-align: start;
+    font-family: "eb garamond", serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    box-shadow: 10px 10px #fff, 10px 10px 0 2px #efeeee;
+    margin-bottom: 70px;
+}
+.div-ourservices p{
+    color: var(--bg-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+/*.div-ourservices-a{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+    margin-bottom: 100px;
+}
+.div-ourservices-a > div{
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 25px;
+    text-align: start;
+    font-family: "eb garamond", serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    box-shadow: 10px 10px #fff, 10px 10px 0 2px #efeeee;
+}
+.div-ourservices-a p{
+    color: var(--bg-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}*/
+.div-ourservices span/*, .div-ourservices-a span*/{
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+    padding-top: 15px;
+   
+   }
+   .div-ourservices a, .div-ourservices-a a{
+       text-decoration: none;
+       color: #da1317;
+       font-family: "eb garamond", serif;
+    font-size: 1.2rem;
+   }
+@media screen and (max-width:1024px) {
+    .div-our-service{
+        padding-top: 35px;
+    }
+    .div-ourservices{
+        flex-direction: column;
+        padding: 0 7%;
+        margin-bottom: 0;
+    }
+    .div-ourservices div{
+        width: 90%;
+        padding: 4%;
+    }
+}

@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+:root{
+    --bg-color: #1a2b6d;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto !important;
+    max-width: 1440px;
+    background-color: #fff;
+    /* position: relative; */
+}
+.carousel-item img{
+    width: auto;
+    height: 400px;
+}
+.section-b{
+    width: 90%;
+    margin: 40px auto;
+}
+.div-expert-services{
+    font-family: "eb garamond", serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-weight: 300;
+    word-spacing: 3px;
+    padding-bottom: 30px;
+    color: #060855;
+}
+.div-cts{
+    display: flex;
+    justify-content: space-around;
+}
+.div-cts div{
+    width: 25%;
+    padding-bottom: 20px;
+}
+.Collaborating-img{
+    width: 55px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.Collaborating-img img{
+    padding-top: 8px;
+    width: 80%;
+    height: 40px;
+}
+.Collaborating-img + p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.collaborate-p{
+    text-align: justify;
+    line-height: 1.6;
+    font-family: "eb garamond", serif;
+    font-size: 1.1rem;
+}
+.p-empty{
+    display: inline-block;
+    border: 1px solid rgb(66 65 65 / 15%);
+}
+.div-about-a{
+    border: 1px solid #00000040;
+    border-radius: 4px;
+    width: 125px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 60px;
+    box-shadow: 2px 2px 0px 1px #d2caca;
+}
+.div-about-a a{
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1rem;
+    }
+.div-about-a a:hover{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 1.1rem;
+}
+.about-section{
+    background: rgba(0,0,0,0.1) url(../image/header-image.webp);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;   
+}
+.about-img{
+    width: 100%;
+    height: 300px;
+    padding: 120px 120px;
+    background-color: rgba(0,0,0,0.5);
+    color: whitesmoke;
+    font-size: 3.5rem;
+    font-family: "eb garamond", serif;
+}
+.div-ourstory{
+    display: flex;
+    margin-top: 60px;
+}
+.ourstory{
+    width: 40%;
+    color: #057597;
+    font-size: 3.4rem;
+    text-align: center;
+}
+.ourstory + div{
+    width: 60%;
+    padding: 0 150px 0 30px;
+    font-size: 1.3rem;
+    font-family: "eb garamond", serif;
+    line-height: 1.6;
+    word-spacing: 4px;
+}
+.div-ourmission{
+background-image: url(../image/our-mission-2.png);
+height: 350px;
+background-repeat:no-repeat;
+justify-content: right;
+align-items: end;
+background-position: right;
+margin: 50px 0;
+}
+.div-ourmission > div{
+    width: 57%;
+    padding-top: 10px;
+    padding-left: 70px;
+    font-size: 1.3rem;
+    font-family: "eb garamond", serif;
+    line-height: 1.6;
+    word-spacing: 4px;
+}
+.div-ourmission p{
+    padding-left: 115px;
+    margin: 10px;
+    color: #057597;
+    font-size: 3.4rem;
+}
+.main-our-service{
+    /* position: relative; */
+    width: 100%;
+    /* height: 600px; */
+}
+.div-our-service{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #1a2b6d;
+    color: white;
+    font-size: 2.5rem;
+    padding: 50px 0 0 120px;
+}
+.div-ourservices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 60px;
+    position: relative;
+    top: -68px;
+    margin-bottom: 30px;
+ }
+.div-ourservices > div{
+    width: 26%;
+    background-color: #f2f2f2;
+    padding: 30px ;
+    text-align: start;
+    font-family: "eb garamond", serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    box-shadow: 10px 10px #fff, 10px 10px 0 2px #efeeee;
+    margin-bottom: 60px;
+}
+.div-ourservices p{
+    color: var(--bg-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+/*.div-ourservices-a{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+    margin-bottom: 100px;
+}
+.div-ourservices-a > div{
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 25px;
+    text-align: start;
+    font-family: "eb garamond", serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    box-shadow: 10px 10px #fff, 10px 10px 0 2px #efeeee;
+    margin: 15px auto;
+}
+.div-ourservices-a p{
+    color: var(--bg-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}*/
+.div-ourservices span/*, .div-ourservices-a span*/{
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+    padding-top: 15px;
+   
+   }
+   .div-ourservices a, .div-ourservices-a a{
+       text-decoration: none;
+       color: #da1317;
+       font-family: "eb garamond", serif;
+    font-size: 1.2rem;
+   }
+   #aboutussection{
+    display: none;
+   }
+.careers-section{
+    display: flex;
+    width: 90%;
+    margin: 0 auto 50px;
+}
+.careers-div{
+    width: 45%;
+    /* padding: 50px 50px 70px 70px; */
+    padding: 0 15px;
+}
+.careers-p{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.careers-p + p{
+    font-family: "eb garamond", serif;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    word-spacing: 3px;
+}
+.careers-span{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.careers-span > span{
+    width: max-content;
+    height: 45px;
+ border: 1px solid #00000040;
+ box-shadow: 2px 2px 0px 1px #d2caca;
+ padding: 10px 16px;
+ /* margin: 40px; */
+ border-radius: 4px;
+}
+.careers-span a{
+    color: black;
+    font-size: 1rem;
+}
+.careers-span a:hover{
+    color: #060855;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.careers-img{
+    display: flex;
+    width: 55%;
+}
+.careers-img > div{
+    width: 48%;
+    margin: 0;
+}
+.careers-img img{
+    width: 95%;
+}
+.careers-img-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.careers-above-img{
+    display: none;
+}
+@media only screen and (max-width:1024px){
+    .div-cts{
+        flex-direction: column;
+    }
+    .div-cts div{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .carousel-item img{
+        height: 300px;
+    }
+    .div-ourservices{
+        flex-direction: column;
+    }
+    .div-ourservices div{
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+    .div-ourstory{
+        display: flex;
+        flex-direction: column;
+    }
+    .ourstory{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .ourstory + div{
+        width: 100%;
+        padding: 3% 7%;
+        font-size: 1.1rem;
+        word-spacing: 3px;
+        text-align: justify;
+    }
+    .div-ourmission{
+        background-image: none;
+        height: fit-content;
+        margin-top: 20px;
+    }
+    .div-ourmission > div{
+        width: 100%;
+        padding: 7%;
+        font-size: 1.1rem;
+        word-spacing: 3px;
+        text-align: justify;
+    }
+    .div-ourmission p{
+        padding: 5px;
+        font-size: 2rem;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .div-our-service{
+        font-size: 2rem;
+        padding: 50px;
+    height: 200px;
+    }
+    .div-ourservices > div{
+        width: 95%;
+        padding: 8%;
+        text-align: justify;
+    }
+    .div-ourservices{
+        padding: 7%;
+        top: -110px;
+        margin-bottom: 0;
+
+    }
+    .training-support{
+        margin-bottom: 0;
+    }
+    .careers-section{
+        flex-direction: column-reverse;
+    }
+    .careers-div{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .careers-above-img{
+        font-size: 2.5rem;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+    .careers-p{
+        display: none;
+    }
+    .careers-img{
+        width: 90%;   
+        margin: 0 auto;
+    }
+    .careers-p + p{
+        margin-top: 5%;
+    }
+     
+}
+@media only screen and (max-width:767px){
+    .carousel-item img{
+        height: 240px;
+    }
+    
+    .careers-span{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-left: 20%;
+    }
+    .careers-span > span{
+        text-align: center;
+    }
+   .careers-apply-now{
+    margin-bottom: 20px;
+   }
+}
